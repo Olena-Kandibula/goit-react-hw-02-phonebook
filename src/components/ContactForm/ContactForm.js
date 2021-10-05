@@ -45,6 +45,7 @@ class ContactForm extends Component {
             className={s.input}
             type="text"
             name="name"
+            autoComplete="off"
             value={this.state.name}
             onChange={this.handleChange}
             placeholder="Tom Smit"
@@ -60,6 +61,7 @@ class ContactForm extends Component {
             className={s.input}
             type="tel"
             name="number"
+            autoComplete="off"
             value={this.state.number}
             onChange={this.handleChange}
             placeholder="050-50-50"

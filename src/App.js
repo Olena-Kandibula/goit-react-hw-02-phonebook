@@ -29,7 +29,6 @@ class App extends Component {
   };
 
   removeCoontactFromList = (idRemoveContact) => {
-    console.log(idRemoveContact);
     this.setState((prevState) => ({
       contacts: prevState.contacts.filter(({ id }) => id !== idRemoveContact),
     }));

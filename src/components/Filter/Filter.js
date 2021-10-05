@@ -9,6 +9,7 @@ const Filter = ({ filter, onChangeFilter }) => {
         className={s.input}
         type="text"
         name="filter"
+        autoComplete="off"
         value={filter}
         onChange={onChangeFilter}
         pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
